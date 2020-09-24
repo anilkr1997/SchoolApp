@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#5E5EC4</color>
+    <color name="colorPrimaryDark">#43438B</color>
+    <color name="colorAccent">#D81B60</color>
+    <color name="textcolor">#000</color>
+    <color name="white">#FFFFFF</color>
+    <color name="black">#000000</color>
+    <color name="darkred">#A20303</color>
+    <color name="green">#027014</color>
+    <color name="linkcolor">#551A8B</color>
+    <color name="layoutcoler">#F0F0F0</color>
+
+    <color name="feecolor">#ff207d94</color>
+    <color name="nonselectmonth">#E9E9E9</color>
+    <color name="selectedmonth">#00FF0D</color>
+
+</resources>

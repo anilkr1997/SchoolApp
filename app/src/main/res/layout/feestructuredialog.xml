@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="10dp"
+    android:background="@drawable/whiterect"><LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal">
+    <TextView
+        android:text="ID "
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"/>
+    <TextView android:id="@+id/ID"
+        android:textColor="@color/black"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+</LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:text="ClassId "
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"/>
+        <EditText android:id="@+id/ClassId"
+            android:textColor="@color/black"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:text="FeeTypeID "
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"/>
+        <EditText android:id="@+id/FeeTypeID"
+            android:textColor="@color/black"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:text="SessionId"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"/>
+        <EditText android:id="@+id/SessionId"
+            android:textColor="@color/black"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:text="Anually "
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"/>
+        <EditText android:id="@+id/Anually"
+            android:textColor="@color/black"
+            android:layout_width="match_parent"
+            android:inputType="number"
+            android:layout_height="wrap_content"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:text="Course_Monthly "
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"/>
+        <EditText android:id="@+id/Course_Monthly"
+            android:textColor="@color/black"
+            android:layout_width="match_parent"
+            android:inputType="number"
+            android:layout_height="wrap_content"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:text="Quaterly "
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"/>
+        <EditText android:id="@+id/Quaterly"
+            android:textColor="@color/black"
+            android:inputType="number"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+    </LinearLayout>
+<Button
+    android:id="@+id/Update"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="right"
+    android:text="Update"
+    android:layout_marginTop="11dp"
+    android:background="@drawable/whiterect"></Button>
+</LinearLayout>

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <LinearLayout
+        android:id="@+id/lin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:id="@+id/subject"
+            android:text="Subject"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:gravity="center"
+            android:background="@drawable/rect"
+            android:layout_height="50dp"/>
+        <TextView
+            android:id="@+id/starttime"
+            android:text="From Start"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:background="@drawable/rect"
+            android:layout_height="50dp"/>
+        <TextView
+            android:id="@+id/tilltime"
+            android:text="Till Time"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:background="@drawable/rect"
+            android:layout_height="50dp"/>
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:background="@drawable/rect"
+            android:layout_height="50dp">
+        <TextView
+            android:id="@+id/teacher"
+            android:text="Teacher"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"/>
+        <Button
+            android:id="@+id/arrow"
+            android:background="@drawable/ic_system_update_black_24dp"
+            android:layout_width="21dp"
+            android:layout_height="21dp"></Button></LinearLayout>
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".Fragments.StaffRegistrationFragment">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:orientation="vertical"
+                                android:padding="22dp"
+                                android:background="#fff">
+
+                                <ImageView
+                                    android:id="@+id/img"
+                                    android:layout_width="100dp"
+                                    android:layout_gravity="center"
+                                    android:src="@drawable/ic_photo_camera_black_24dp"
+                                    android:layout_height="100dp"/>
+
+
+                                <!-- Name Label -->
+                                <com.google.android.material.textfield.TextInputLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginTop="8dp"
+                                    android:layout_marginBottom="8dp">
+                                    <EditText android:id="@+id/Name"
+                                        android:layout_width="match_parent"
+                                        android:layout_height="wrap_content"
+                                        android:inputType="textPersonName"
+                                        android:hint="Name" />
+                                </com.google.android.material.textfield.TextInputLayout>
+                                <!-- Class Label -->
+                                <com.google.android.material.textfield.TextInputLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginTop="8dp"
+                                    android:layout_marginBottom="8dp">
+                                    <EditText android:id="@+id/FatherName"
+                                        android:layout_width="match_parent"
+                                        android:layout_height="wrap_content"
+                                        android:inputType="textPersonName"
+                                        android:hint="Father" />
+                                </com.google.android.material.textfield.TextInputLayout>
+
+                                <!-- Class Label -->
+                                <com.google.android.material.textfield.TextInputLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginTop="8dp"
+                                    android:layout_marginBottom="8dp">
+                                    <EditText android:id="@+id/MotherName"
+                                        android:layout_width="match_parent"
+                                        android:layout_height="wrap_content"
+                                        android:inputType="textPersonName"
+                                        android:hint="Mother" />
+                                </com.google.android.material.textfield.TextInputLayout>
+
+                                <!-- Class Label -->
+                                <com.google.android.material.textfield.TextInputLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginTop="8dp"
+                                    android:layout_marginBottom="8dp">
+                                    <EditText android:id="@+id/Address"
+                                        android:layout_width="match_parent"
+                                        android:layout_height="wrap_content"
+                                        android:inputType="textPersonName"
+                                        android:hint="Address" />
+                                </com.google.android.material.textfield.TextInputLayout>
+
+                                <!-- Class Label -->
+                                <com.google.android.material.textfield.TextInputLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginTop="8dp"
+                                    android:layout_marginBottom="8dp">
+                                    <EditText android:id="@+id/Phone"
+                                        android:layout_width="match_parent"
+                                        android:layout_height="wrap_content"
+                                        android:inputType="number"
+                                        android:hint="Phone" />
+                                </com.google.android.material.textfield.TextInputLayout>
+                                <com.google.android.material.textfield.TextInputLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginTop="8dp"
+                                    android:layout_marginBottom="8dp">
+                                    <EditText android:id="@+id/email"
+                                        android:layout_width="match_parent"
+                                        android:layout_height="wrap_content"
+                                        android:inputType="textEmailAddress"
+                                        android:hint="email" />
+                                </com.google.android.material.textfield.TextInputLayout>
+
+                                <!-- Class Label -->
+                                <com.google.android.material.textfield.TextInputLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginTop="8dp"
+                                    android:layout_marginBottom="8dp">
+                                    <EditText
+                                        android:id="@+id/DOB"
+                                        android:layout_width="match_parent"
+                                        android:layout_height="wrap_content"
+                                        android:ems="10"
+                                        android:inputType="date"
+                                        android:hint="D.O.B." />
+                                </com.google.android.material.textfield.TextInputLayout>
+
+
+
+
+
+
+
+                                <!-- mobile number -->
+                                <com.google.android.material.textfield.TextInputLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginTop="8dp"
+                                    android:layout_marginBottom="8dp">
+                                    <EditText android:id="@+id/RegisterDate"
+                                        android:layout_width="match_parent"
+                                        android:layout_height="wrap_content"
+                                        android:inputType="date"
+                                        android:hint="RegisterDate" />
+                                </com.google.android.material.textfield.TextInputLayout>
+
+
+
+
+                                <LinearLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:orientation="horizontal"
+                                    android:padding="16dp">
+                                    <LinearLayout
+                                        android:layout_width="0dp"
+                                        android:layout_weight="2"
+                                        android:layout_gravity="center"
+                                        android:layout_height="wrap_content"
+                                        android:orientation="vertical">
+                                        <TextView
+                                            android:layout_width="wrap_content"
+                                            android:layout_height="wrap_content"
+                                            android:text="Profile"
+                                            android:textColor="#C27200"
+                                            android:textSize="19sp"
+                                            />
+
+                                    </LinearLayout>
+                                    <TextView
+                                        android:layout_width="0dp"
+                                        android:layout_height="wrap_content"
+                                        android:text=":"
+                                        android:layout_gravity="center"
+                                        android:textColor="@color/textcolor"
+                                        android:textSize="19sp"
+                                        android:layout_weight="1"/>
+                                    <LinearLayout
+                                        android:layout_width="0dp"
+
+                                        android:background="@drawable/whiterect"
+                                        android:layout_height="wrap_content"
+                                        android:layout_gravity="center"
+                                        android:inputType="numberDecimal"
+                                        android:layout_weight="4">
+                                        <Spinner
+
+                                            android:id="@+id/spinnerprofile"
+                                            android:layout_width="0dp"
+                                            android:padding="11dp"
+                                            android:layout_height="wrap_content"
+                                            android:layout_gravity="center"
+
+                                            android:layout_weight="4"/>
+                                    </LinearLayout>
+                                </LinearLayout>
+
+
+
+
+
+                            </LinearLayout>
+
+
+                            <RelativeLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center"
+                                android:gravity="center"
+                                android:orientation="horizontal">
+
+                                <Button
+                                    android:id="@+id/save"
+                                    android:text="Save"
+                                    android:layout_centerHorizontal="true"
+                                    android:background="@drawable/whiterect"
+                                    android:layout_alignParentLeft="true"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"/>
+
+
+                            </RelativeLayout>
+
+
+
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

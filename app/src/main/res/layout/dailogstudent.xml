@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="400dp"
+    android:layout_gravity="center"
+    android:padding="10dp"
+    android:background="#fff"
+    android:gravity="center"
+    android:layout_height="match_parent">
+    <TextView
+        android:id="@+id/update"
+        android:text="View &amp; Update"
+        android:layout_width="300dp"
+        android:gravity="center"
+        android:background="@drawable/tvback"
+        android:textColor="#fff"
+        android:padding="6dp"
+        android:textSize="18sp"
+        android:layout_height="wrap_content"/>
+    <TextView
+        android:id="@+id/generate"
+        android:text="Generate Id Card"
+        android:layout_width="300dp"
+        android:textColor="#fff"
+        android:padding="6dp"
+        android:textSize="18sp"
+        android:layout_marginTop="11dp"
+        android:background="@drawable/tvback"
+        android:gravity="center"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:text="Fee Details"
+        android:layout_width="300dp"
+        android:textColor="#fff"
+        android:padding="6dp"
+        android:textSize="18sp"
+        android:layout_marginTop="11dp"
+        android:background="@drawable/tvback"
+        android:gravity="center"
+        android:layout_height="wrap_content"/>
+    <TextView
+        android:text="Notice"
+        android:layout_width="300dp"
+        android:textColor="#fff"
+        android:padding="6dp"
+        android:textSize="18sp"
+        android:layout_marginTop="11dp"
+        android:background="@drawable/tvback"
+        android:gravity="center"
+        android:layout_height="wrap_content"/>
+    <TextView
+        android:text="Attendance Report"
+        android:layout_width="300dp"
+        android:textColor="#fff"
+        android:padding="6dp"
+        android:textSize="18sp"
+        android:layout_marginTop="11dp"
+        android:background="@drawable/tvback"
+        android:gravity="center"
+        android:layout_height="wrap_content"/>
+
+
+</LinearLayout>

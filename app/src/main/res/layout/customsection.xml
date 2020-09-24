@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:background="@drawable/rect"
+    android:layout_marginTop="1dp"
+    android:layout_height="wrap_content">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height=".01dp"
+        android:singleLine="true"
+        android:visibility="invisible"
+        android:text="........................................................................................................................................................................."/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:weightSum="1"
+        android:orientation="horizontal">
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_weight=".5"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:id="@+id/ID"
+                android:text="ID"
+                android:textColor="@color/textcolor"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+            <TextView
+                android:id="@+id/SectionName"
+                android:text="Section"
+                android:textColor="@color/textcolor"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_weight=".5"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <CheckBox
+                android:id="@+id/IsActive"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Active"/>
+            <CheckBox
+                android:id="@+id/IsDeleted"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:text="Deleted"/>
+            <Button
+                android:layout_width="wrap_content"
+                android:id="@+id/update"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right"
+                android:text="Update"
+                android:textColor="@color/white"
+                android:textStyle="bold"
+                android:background="@drawable/updatebutton"/>
+
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,410 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Fragments.ClassFeeFragment"
+    android:background="#FAEDD9">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Select Class"
+                android:layout_gravity="center"
+                android:textColor="#C27200"
+                android:textSize="19sp"
+                />
+
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:padding="16dp">
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_weight="2"
+                    android:layout_gravity="center"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Session"
+                        android:textColor="#C27200"
+                        android:textSize="19sp"
+                        />
+
+                </LinearLayout>
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:text=":"
+                    android:layout_gravity="center"
+                    android:textColor="@color/textcolor"
+                    android:textSize="19sp"
+                    android:layout_weight="1"/>
+                <LinearLayout
+                    android:layout_width="0dp"
+
+                    android:background="@drawable/whiterect"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:inputType="numberDecimal"
+                    android:layout_weight="4">
+                    <Spinner
+
+                        android:id="@+id/spinnersession"
+                        android:layout_width="0dp"
+                        android:padding="11dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+
+                        android:layout_weight="4"/>
+                </LinearLayout>
+            </LinearLayout>
+
+
+
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:padding="16dp">
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_weight="2"
+                    android:layout_gravity="center"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Class"
+                        android:textColor="#C27200"
+                        android:textSize="19sp"
+                        />
+
+                </LinearLayout>
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:text=":"
+                    android:layout_gravity="center"
+                    android:textColor="@color/textcolor"
+                    android:textSize="19sp"
+                    android:layout_weight="1"/>
+                <LinearLayout
+                    android:layout_width="0dp"
+
+                    android:background="@drawable/whiterect"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:inputType="numberDecimal"
+                    android:layout_weight="4">
+                    <Spinner
+
+                        android:id="@+id/spinnerclass"
+                        android:layout_width="0dp"
+                        android:padding="11dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+
+                        android:layout_weight="4"/>
+                </LinearLayout>
+            </LinearLayout>
+
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:padding="16dp">
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_weight="2"
+                    android:layout_gravity="center"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Section"
+                        android:textColor="#C27200"
+                        android:textSize="19sp"
+                        />
+
+                </LinearLayout>
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:text=":"
+                    android:layout_gravity="center"
+                    android:textColor="@color/textcolor"
+                    android:textSize="19sp"
+                    android:layout_weight="1"/>
+                <LinearLayout
+                    android:layout_width="0dp"
+
+                    android:background="@drawable/whiterect"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:inputType="numberDecimal"
+                    android:layout_weight="4">
+                    <Spinner
+                        android:id="@+id/spinnersection"
+                        android:layout_width="0dp"
+                        android:padding="11dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+
+                        android:layout_weight="4"/>
+                </LinearLayout>
+            </LinearLayout>
+
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:padding="16dp">
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_weight="2"
+                    android:layout_gravity="center"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Student Name"
+                        android:textColor="#C27200"
+                        android:textSize="19sp"
+                        />
+
+                </LinearLayout>
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:text=":"
+                    android:layout_gravity="center"
+                    android:textColor="@color/textcolor"
+                    android:textSize="19sp"
+                    android:layout_weight="1"/>
+                <LinearLayout
+                    android:layout_width="0dp"
+
+                    android:background="@drawable/whiterect"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:inputType="numberDecimal"
+                    android:layout_weight="4">
+                    <Spinner
+
+                        android:id="@+id/spinnerstudent"
+                        android:layout_width="0dp"
+                        android:padding="11dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+
+                        android:layout_weight="4"/>
+                </LinearLayout>
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <CheckBox
+                    android:id="@+id/jan"
+                    android:layout_weight="1"
+                    android:layout_width="0dp"
+                    android:text="Jan"
+                    android:layout_height="wrap_content"/>
+                <CheckBox
+                    android:id="@+id/feb"
+                    android:layout_weight="1"
+                    android:layout_width="0dp"
+                    android:text="Feb"
+                    android:layout_height="wrap_content"/>
+                <CheckBox
+                    android:id="@+id/mar"
+                    android:layout_weight="1"
+                    android:layout_width="0dp"
+                    android:text="Mar"
+                    android:layout_height="wrap_content"/>
+                <CheckBox
+                    android:id="@+id/apr"
+                    android:layout_weight="1"
+                    android:layout_width="0dp"
+                    android:text="Apr"
+                    android:layout_height="wrap_content"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <CheckBox
+                    android:id="@+id/may"
+                    android:layout_weight="1"
+                    android:layout_width="0dp"
+                    android:text="May"
+                    android:layout_height="wrap_content"/>
+                <CheckBox
+                    android:id="@+id/jun"
+                    android:layout_weight="1"
+                    android:layout_width="0dp"
+                    android:text="Jun"
+                    android:layout_height="wrap_content"/>
+                <CheckBox
+                    android:id="@+id/jul"
+                    android:layout_weight="1"
+                    android:layout_width="0dp"
+                    android:text="Jul"
+                    android:layout_height="wrap_content"/>
+                <CheckBox
+                    android:id="@+id/aug"
+                    android:layout_weight="1"
+                    android:layout_width="0dp"
+                    android:text="Aug"
+                    android:layout_height="wrap_content"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <CheckBox
+                    android:id="@+id/sep"
+                    android:layout_weight="1"
+                    android:layout_width="0dp"
+                    android:text="Sep"
+                    android:layout_height="wrap_content"/>
+                <CheckBox
+                    android:id="@+id/oct"
+                    android:layout_weight="1"
+                    android:layout_width="0dp"
+                    android:text="Oct"
+                    android:layout_height="wrap_content"/>
+                <CheckBox
+                    android:id="@+id/nov"
+                    android:layout_weight="1"
+                    android:layout_width="0dp"
+                    android:text="Nov"
+                    android:layout_height="wrap_content"/>
+                <CheckBox
+                    android:id="@+id/dec"
+                    android:layout_weight="1"
+                    android:layout_width="0dp"
+                    android:text="Dec"
+                    android:layout_height="wrap_content"/>
+            </LinearLayout>
+
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:padding="16dp">
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_weight="2"
+                    android:layout_gravity="center"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Amount"
+                        android:textColor="#C27200"
+                        android:textSize="19sp"
+                        />
+
+                </LinearLayout>
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:text=":"
+                    android:layout_gravity="center"
+                    android:textColor="@color/textcolor"
+                    android:textSize="19sp"
+                    android:layout_weight="1"/>
+                <EditText
+                    android:id="@+id/amount"
+                    android:layout_width="0dp"
+                    android:padding="11dp"
+                    android:background="@drawable/whiterect"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:inputType="numberDecimal"
+                    android:layout_weight="4"/>
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:padding="16dp">
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_weight="2"
+                    android:layout_gravity="center"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Date"
+                        android:textColor="#C27200"
+                        android:textSize="19sp"
+                        />
+
+                </LinearLayout>
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:text=":"
+                    android:layout_gravity="center"
+                    android:textColor="@color/textcolor"
+                    android:textSize="19sp"
+                    android:layout_weight="1"/>
+                <EditText
+                    android:id="@+id/currendate"
+                    android:layout_width="0dp"
+                    android:padding="11dp"
+                    android:background="@drawable/whiterect"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:inputType="numberDecimal"
+                    android:layout_weight="4"/>
+            </LinearLayout>
+
+
+            <Button
+                android:id="@+id/submit"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:textColor="#CF9739"
+                android:text="Submit"
+                android:background="@drawable/whiterect"/>
+        </LinearLayout>
+    </ScrollView>
+
+</FrameLayout>

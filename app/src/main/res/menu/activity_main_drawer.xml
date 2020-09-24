@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group  >
+        <item
+            android:icon="@drawable/profile"
+            android:id="@+id/profile"
+            android:title="Profile" />
+        <item
+            android:icon="@drawable/timeline"
+            android:id="@+id/nav_gallery"
+            android:title="Timeline" />
+        <item
+            android:icon="@drawable/aboutsc"
+            android:id="@+id/about"
+            android:title="About School" />
+
+    </group>
+
+    <item android:title="Communicate">
+        <menu>
+            <item
+                android:icon="@drawable/ic_star_black_24dp"
+                android:id="@+id/rating"
+                android:title="Rate Us" />
+            <item
+                android:icon="@drawable/share"
+                android:id="@+id/nav_share"
+                android:title="Share App" />
+            <item
+                android:icon="@drawable/logout"
+                android:id="@+id/logout"
+                 android:title="logout" />
+        </menu>
+    </item>
+
+</menu>
